@@ -1,0 +1,15 @@
+#container { 
+    width:520px;
+    border:1px solid black;
+    padding:20px 40px;
+    margin:30px auto;
+}
+fieldset{margin-bottom:15px;}
+legend{font-weight:bold;}
+ul{list-style: none;}
+li{line-height:2em;}
+form #info lable{width: 50px; float: left; margin-right: 10px;}
+.button{margin-top: 20px;}
+/* .button input{width: 80px; height: 30px;} */
+button{width: 80px; height: 30px;}
+/* 버튼태그 사용시 */
