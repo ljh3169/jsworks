@@ -1,0 +1,15 @@
+/* 모바일 기준 */
+#container{width: 100%; margin: 0 auto; background-color: red;}
+header{height: 100px; border: 1px solid #fff; color: #fff}
+section{height: 600px; border: 1px solid #fff; color: #fff}
+footer{height: 100px; border: 1px solid #fff; color: #fff}
+
+/* 테블릿 기준 */
+@media screen and (min-width: 780px){
+    #container{width: 1000px; margin: 0 auto; background-color: green;}
+}
+
+/* PC 기준 */
+@media screen and (min-width: 1000px){ /*가로크기 1000px 이상이면 배경색 파랑 지정*/
+    #container{width: 1000px; margin: 0 auto; background-color: blue;}
+}
